@@ -21,3 +21,4 @@ end
 
 if not set_text(path, new_text) then
     print("cannot mutate immutable item")
+end
