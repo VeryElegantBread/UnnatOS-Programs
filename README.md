@@ -9,3 +9,7 @@ Run it with an item path, type or paste in you text, and write program:finish.
 A program like read specifically for reading lua code.
 
 Run it with an item path to veiw the item with syntax highlighting and line numbers. Add no-nums as your third argument to view the item without the line numbers.
+### fortune
+Prints a random message.
+
+Fortune list from https://github.com/bmc/fortunes under the Creative Commons Attribution 4.0 International License.
