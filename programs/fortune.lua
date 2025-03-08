@@ -1,8 +1,5 @@
 local fortune_name = SplitString(Input, " ")[1]
-local fortune_path = {"System", "Programs", fortune_name}
-if not item_exists(fortune_path) then
-	fortune_path = StringToPath(fortune_name)
-end
+local fortune_path = GetCommandItem(fortune_name)
 
 local fortunes_list_path = fortune_path
 table.insert(fortunes_list_path, "fortunes")
