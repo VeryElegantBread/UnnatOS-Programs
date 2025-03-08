@@ -62,7 +62,7 @@ function HighlightCode(code)
 	for i = 1, #temp_code do
 		local character = temp_code:sub(i, i)
 		local delimiter_code = delimiters[character]
-		if character == "-" and temp_code:sub(i + 1, i + 1) == "-" then
+		if character == "-" and temp_code:sub(i + 1, i + 1) == "-" and quotations == 0 then
 				comment = true
 		elseif delimiter_code then
 			if character == "'" and not comment then
