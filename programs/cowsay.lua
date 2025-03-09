@@ -160,5 +160,3 @@ cow_text = cow_text:gsub("%$tongue", toung)
 cow_text = cow_text:gsub("\\\\", "\\")
 
 return {  bubble,  cow_text }
-
-program:finish
